@@ -28,22 +28,36 @@
         </nav>
 
         </header>
-
+ <!--start of hero-->
         <section>
             <div>
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
-                <!--Added form Element-->
+<!--Added form Element-->
                 <form>
-                    <label for="name"></label>
+                    <label for="name">Enter Full Name</label>
                     <input type="text" placeholder="Your Name" name="name" id="name" />
-                    <label for="email"></label>
-                    <input type="text" placeholder="Your Email Address" name="email" id="email" />
-                    <Label for="phone"></Label>
-                    <input type="text" placeholder="Phone Number" name="phone" id="phone" />
+                    <label for="email">Enter email address</label>
+                    <input type="email" placeholder="Your Email Address" name="email" id="email" />
+                    <Label for="phone">Enter a telephone number</Label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                        <label for="checkbox" >I acknowledge that I am at leaast 18 years of age    
+                        </label>
+                        <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+                    <button type="submit">Get Running!</button>
                 </form>
             </div>
         </section>
+<!--end of hero-->
 
         <section>
             <h2> What We Do</h2>
